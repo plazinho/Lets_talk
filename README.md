@@ -1,5 +1,5 @@
 ## Let's talk - ASL (American Sign Language) recognition
-### This project was made by:
+### This project was done by:
 - https://github.com/plazinho
 - https://github.com/IlyaGaluzinskiy
 - https://github.com/aabdysheva
