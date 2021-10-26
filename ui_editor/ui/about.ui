@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>About</class>
+ <widget class="QWidget" name="About">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1031</width>
+    <height>861</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Let's Talk - About</string>
+  </property>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>24</x>
+     <y>0</y>
+     <width>861</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="text">
+    <string>Инструкция пользователя</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>60</y>
+     <width>971</width>
+     <height>791</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-1683</y>
+      <width>948</width>
+      <height>2472</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>901</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>901</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Программа Let's talk создана для распознавания знаков языка жестов ASL (American Sign Language). 
+На данной странице представлено рабочее пространство программы Let's talk.
+Основное окно программы отображает изображение, получаемое с камеры устройства на котором используется программа. Справа от него расположено окно Редактирования и записи.</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>761</width>
+           <height>411</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>761</width>
+           <height>411</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../../Screens/Basic_about_cut-painted.jpg</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="minimumSize">
+          <size>
+           <width>901</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>901</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Основное окно&lt;/span&gt;&lt;/p&gt;&lt;p&gt;В верхней части Основного окна расположена &amp;quot;Строка предсказаний&amp;quot;, отображающая знаки, распознанные программой (но не записанные). Под ней, в правом верхнем углу, расположены текущие предсказания, отсортированные в порядке убывания вероятности (по данным модели).&lt;/p&gt;&lt;p&gt;В левом верхнем углу располжен индикатор - Режим работы, отображающий текущий режим работы программы. &lt;/p&gt;&lt;p&gt;Красный цвет индикатора - программа в режиме Model_start - распознанные знаки сохраняются и записываются. (Установлен по умолчанию.)&lt;/p&gt;&lt;p&gt;Зеленый цвет индикатора - программа в режиме Model_stop, в данном режиме модель не записывает текущие предсказания, ранее распознанные знаки сохраняются.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_9">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="text">
+          <string>Жесты управления программой:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_7">
+         <property name="minimumSize">
+          <size>
+           <width>761</width>
+           <height>411</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>761</width>
+           <height>411</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../../Screens/model_start-painted.jpg</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_8">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>model_start - переводит программу в режим распознования и записи (красный цвет индикатора)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_10">
+         <property name="minimumSize">
+          <size>
+           <width>761</width>
+           <height>411</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>761</width>
+           <height>411</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../../Screens/model_stop-painted.jpg</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_11">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>model_stop - переводит программу в режим паузы (зеленый цвет индикатора)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_12">
+         <property name="minimumSize">
+          <size>
+           <width>761</width>
+           <height>411</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>761</width>
+           <height>411</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../../Screens/noneNan.jpg</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_13">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;NaN - знак, который позволяет записать распознанные знаки (сохранить предложение), отображаемые в &amp;quot;Окне предсказагний&amp;quot;, записанные знаки отображаются в отдельном окне - Редактирования и записи.&lt;/p&gt;&lt;p&gt;Со списком доступных знаков можно ознакомиться, перейдя на вкладку Available signs в главном меню. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Окно Редактирования и записи&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Данное окно запускается одновременно с Основным окном.&lt;/p&gt;&lt;p&gt;В верхней части окна расположены кнопки:&lt;/p&gt;&lt;p&gt;Duplicate last sign - позволяет повторить последний распознный, но не записанный знак. Данная функция была реализована в связи програмным ограничением ввода повторяющися знаков для обеспечения корректной работы программы.&lt;/p&gt;&lt;p&gt;Delete_last_sign - позволяет удалить последний введенный знак, рекомендуется использовать в режиме model_stop.&lt;/p&gt;&lt;p&gt;Под кнопками располжено окно вывода записанного текста, текст доступен для копирования, но недоступен для редактирования.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
