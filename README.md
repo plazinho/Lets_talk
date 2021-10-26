@@ -1,4 +1,8 @@
 ## Let's talk - ASL (American Sign Language) recognition
+### This project was made by:
+- https://github.com/plazinho
+- https://github.com/IlyaGaluzinskiy
+- https://github.com/aabdysheva
 
 ### Let's talk was build in order to recognize and translate ASL gestures in real-time using computer vision (Project was build in two weeks)
 - Let's talk currently able to recognize 39 gestures (26 letters, 10 words, 3 special signs)
