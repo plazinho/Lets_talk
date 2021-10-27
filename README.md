@@ -4,6 +4,7 @@
 - Let's talk was created using MediaPipe, OpenCV, Keras, PyQt
 - LSTM model for sign recognition was built using Keras and trained on dataset, that was collected during development (currently includes more than 5000 samples)
 - Model architecture: 3 LSTM layers with ReLU activation and output fully-connected layer with softmax activation
+- "3lstm.h5" - pretrained weights for the model that will be used by a default
 - User's guide and list of recognizable gestures are located in the UI
 
 ![Kirill](https://user-images.githubusercontent.com/88561819/139092550-d1b2ef50-641f-467b-a74d-7a6550432974.gif)
@@ -30,14 +31,14 @@
 - Run 'main_ui.py'
 
 ### Create your own dataset:
-Folder "for_model_training" includes scripts that were used for creation of dataset.
+Folder "for_model_training" includes scripts that were used for dataset creation.
 - script 'for_checking_your_camera_and_mediapipe_model' - to see how MediaPipe model actually works with a vizualization of hand's landmarks
 
 #### Steps for dataset creation:
 - script 'creating_folders_for_dataset' - for creation of signs data folders
-- script 'creating_dataset' - to record coordinates for a certain sign and place it in previously created folder (dataset for the program was built by recording coordinates, specific for each gesture. To widen the range of the dataset it was recorded by 3 people).
+- script 'creating_dataset' - to record coordinates for a certain sign and place it in previously created folder (dataset for the model was recorded by getting coordinates of landmarks, specific for each gesture. To widen the range of the dataset it was recorded by 3 people).
 - script 'preparing_data' - to organize and label data in order to pass it to the model
-- script 'train_LSTM_model' - includes necessary functions to process the data and pass it to the model
+- script 'train_LSTM_model' - includes necessary functions to process the data and train model
 
 ### This project was completed in 10 days by:
 - https://github.com/plazinho
