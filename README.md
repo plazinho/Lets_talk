@@ -5,7 +5,7 @@
 - https://github.com/aabdysheva
 
 ### Let's talk was created in order to recognize and translate ASL gestures in real-time using computer vision
-- Let's talk currently able to recognize 39 gestures: 26 alphabet letters, 10 words and 3 special gestures. 12 of them are dynamic gestures
+- Let's talk currently able to recognize 39 gestures: 26 alphabet letters, 10 words and 3 special gestures. 12 of them are gestures that have movement
 - Let's talk was created using MediaPipe, OpenCV, Keras, PyQt
 - LSTM model for sign recognition was built using Keras and trained on dataset, that was collected during development (currently includes more than 5000 samples)
 - Prediction model architecture: 3 LSTM layers with ReLU activation and output fully-connected layer with softmax activation
@@ -14,8 +14,9 @@
 ![Kirill](https://user-images.githubusercontent.com/88561819/139092550-d1b2ef50-641f-467b-a74d-7a6550432974.gif)
 
 ### Interface:
-- Top left corner of the screen - Top3 signs predictions 
-- Top of the screen - list of detected and written signs
+- Top left corner of the screen - predictions
+- Field at the top of the screen - detected gestures
+
 
 ### The process of sign recognition consists of following steps:
 - Video from camera is received with a help of OpenCV
