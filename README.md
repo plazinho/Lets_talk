@@ -1,8 +1,4 @@
 ## Let's talk - ASL (American Sign Language) recognition
-### This project was completed in 10 days by:
-- https://github.com/plazinho
-- https://github.com/IlyaGaluzinskiy
-- https://github.com/aabdysheva
 
 ![Kirill](https://user-images.githubusercontent.com/88561819/139092550-d1b2ef50-641f-467b-a74d-7a6550432974.gif)
 
@@ -43,3 +39,8 @@ Folder "for_model_training" includes scripts that were used for creation of data
 - script 'creating_dataset' - to record coordinates for a certain sign and place it in previously created folder (dataset for the program was built by recording coordinates, specific for each gesture. To widen the range of the dataset it was recorded by 3 people).
 - script 'preparing_data' - to organize and label data in order to pass it to the model
 - script 'train_LSTM_model' - includes necessary functions to process the data and pass it to the model
+
+### This project was completed in 10 days by:
+- https://github.com/plazinho
+- https://github.com/IlyaGaluzinskiy
+- https://github.com/aabdysheva
