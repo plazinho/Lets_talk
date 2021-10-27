@@ -11,12 +11,10 @@
 - Prediction model architecture: 3 LSTM layers with ReLU activation and output fully-connected layer with softmax activation
 - User guide and list of available signs are located in the UI
 
+### Main window UI
+![about-eng-1200](https://user-images.githubusercontent.com/88561819/139127588-9ba7f567-4b5a-4173-86bc-9dfa5391af68.jpg)
+
 ![Kirill](https://user-images.githubusercontent.com/88561819/139092550-d1b2ef50-641f-467b-a74d-7a6550432974.gif)
-
-### Interface:
-- Top left corner of the screen - predictions
-- Field at the top of the screen - detected gestures
-
 
 ### The process of sign recognition consists of following steps:
 - Video from camera is received with a help of OpenCV
