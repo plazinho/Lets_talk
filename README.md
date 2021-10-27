@@ -4,6 +4,8 @@
 - https://github.com/IlyaGaluzinskiy
 - https://github.com/aabdysheva
 
+![Kirill](https://user-images.githubusercontent.com/88561819/139092550-d1b2ef50-641f-467b-a74d-7a6550432974.gif)
+
 ### Let's talk was created in order to recognize and translate ASL gestures in real-time using computer vision
 - Let's talk currently able to recognize 39 gestures: 26 alphabet letters, 10 words and 3 special gestures. 12 of them are gestures that have movement
 - Let's talk was created using MediaPipe, OpenCV, Keras, PyQt
@@ -14,7 +16,11 @@
 ### Main window UI
 ![about-eng-1200](https://user-images.githubusercontent.com/88561819/139127588-9ba7f567-4b5a-4173-86bc-9dfa5391af68.jpg)
 
-![Kirill](https://user-images.githubusercontent.com/88561819/139092550-d1b2ef50-641f-467b-a74d-7a6550432974.gif)
+### "About" window. How to use app
+![about](https://user-images.githubusercontent.com/88561819/139136392-c7721446-11ce-42d6-bb94-cc8f4d4409de.png)
+
+### "Available signs" window. Info about gestures that model can recognize + usefull links
+![available_signs](https://user-images.githubusercontent.com/88561819/139136595-9daff1f6-02d0-470b-a402-514469fa8a30.png)
 
 ### The process of sign recognition consists of following steps:
 - Video from camera is received with a help of OpenCV
