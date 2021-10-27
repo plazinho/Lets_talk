@@ -54,7 +54,7 @@ class Ui_available_signs(object):
         self.reference.setScaledContents(False)
         self.reference.setWordWrap(True)
         self.reference.setOpenExternalLinks(True)
-        self.reference.setGeometry(QtCore.QRect(50, 710, 500, 100))
+        self.reference.setGeometry(QtCore.QRect(50, 670, 500, 100))
 
         self.retranslateUi(available_signs)
         QtCore.QMetaObject.connectSlotsByName(available_signs)
