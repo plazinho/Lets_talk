@@ -18,4 +18,5 @@ def create_folders(data_path=path, signs_names=actions, number_of_sequences=no_s
             except:
                 pass
 
+
 create_folders()
