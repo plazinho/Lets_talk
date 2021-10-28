@@ -1,7 +1,7 @@
 ## Let's talk - ASL (American Sign Language) recognition
 ### Let's talk was created in order to recognize and translate ASL gestures in real-time using computer vision
 - Let's talk currently able to recognize 39 gestures: 26 alphabet letters, 10 words and 3 special gestures. 12 of them are gestures that have movement
-- Let's talk was created using MediaPipe, OpenCV, Keras, PyQt
+- Let's talk was created using [MediaPipe](https://github.com/google/mediapipe), [OpenCV](https://github.com/opencv/opencv), [Keras](https://github.com/keras-team/keras), [PyQt](https://github.com/qt)
 - LSTM model for sign recognition was built using Keras and trained on dataset, that was collected during development (currently includes more than 5000 samples)
 - Model architecture: 3 LSTM layers with ReLU activation and output fully-connected layer with softmax activation
 - "3lstm.h5" - pretrained weights for the model that will be used by a default
