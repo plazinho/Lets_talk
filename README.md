@@ -34,13 +34,13 @@
 
 ### Create your own dataset:
 Folder "for_model_training" includes scripts that were used for dataset creation.
-- script 'for_checking_your_camera_and_mediapipe_model' - to see how MediaPipe model actually works with a vizualization of hand's landmarks
+- 'for_checking_your_camera_and_mediapipe_model.py' - to see how MediaPipe model actually works with a vizualization of hand's landmarks
 
 #### Steps for dataset creation:
-- script 'creating_folders_for_dataset' - for creation of signs data folders
-- script 'creating_dataset' - to record coordinates for a certain sign and place it in previously created folder (dataset for the model was recorded by getting coordinates of landmarks, specific for each gesture. To widen the range of the dataset it was recorded by 3 people).
-- script 'preparing_data' - to organize and label data in order to pass it to the model
-- script 'train_LSTM_model' - includes necessary functions to process the data and train model
+- 'creating_folders_for_dataset.py' - to create folders for gestures that you going to record
+- 'creating_dataset.py' - to record coordinates for a certain gesture and save it in previously created folder (dataset for the model was recorded by getting coordinates of landmarks, specific for each gesture. To widen the range of the dataset it was recorded by 3 people).
+- 'preparing_data.py' - to organize and label data in order to pass it to the model
+- 'train_LSTM_model.py' - includes necessary functions to process the data and train model
 
 ### This project was completed in 10 days by:
 - https://github.com/plazinho
